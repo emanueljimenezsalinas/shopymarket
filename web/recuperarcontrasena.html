@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href="css/login.css"/>
+    </head>
+    <body>
+         <a id="logo-header" href="Inicio.html">
+                <img src="./img/logo3.png"  width="50" height="50"/>
+                <span class="site-name">ShopyMarket</span>
+		<span class="site-desc">Tu Mercado Cerquitica</span>
+                
+            </a> <!-- / #logo-header -->
+            
+            <div id="principal">
+                
+                
+                <form  method="POST" action="./usuarios.do" name="finsertar">
+                            <input type="hidden" name="metodo" value="recuperaContrasena"/>
+                            
+                            <label>Email </label>
+                            <input name="email" required="required" type="email" placeholder="micorreo@mail.com"/>
+                            <input type="submit" value="Recuperar Contraseña" />
+                                        
+                </form>
+            </div>
+    </body>
+</html>
